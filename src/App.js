@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="container mt-5">
-      <h1 className="mb-5 text-center">TTTTTraining Courses Tracker</h1>
+      <h1 className="mb-5 text-center">Training Courses Tracker</h1>
       <CourseForm courseAdded={setUpdated} />
       <CourseList courses={courses} refreshCourses={setUpdated} />
     </div>
